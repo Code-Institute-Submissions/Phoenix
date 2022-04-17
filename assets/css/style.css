@@ -1,17 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+
 body {
     color: white;
     background-color: #9A9A9A;
+    background-image: url('/workspace/Phoenix/assets/images/aerialview.jpg');
 }
 
-/* .sidebar {
+p {
+     margin: 0; 
+background: red;
+color: whitesmoke;
+position: relative;
+top: 20%;
+left: 30%;
+margin-right: 50%;
+}
+
+.mainbox {
+    position: relative;
+        background-size: cover;
+    height: 100vh;
+    width: 100%;
+   
+}
+
+.mainbox .sidebar {
     height: 100%;
-    width: 400px;
-    position: absolute;
+    width: 300px;
+    position: fixed;
     left: 0;
     top: 0;
     padding-top: 40px;
-    background-color: lightblue;
+    background-color:  #fff;
+
+    
 }
+
 
 .sidebar div {
     padding: 8px;
@@ -19,11 +52,58 @@ body {
     display: block;
 }
 
+/* Mainlogo */
+.sidebar .parklogo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.sidebar .parklogo a {
+    background-image: url('assets/images/aerialview.jpg');
+    color: black;
+    font-size:  25px;
+    font-weight: 500;
+    position: absolute;
+    left: 50px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.sidebar .menu {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+.sidebar .menu li {
+
+margin-top: 6px;
+padding: 14px 20px;
+
+}
+
+.sidebar .menu i {
+    color: #111213;
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.sidebar .menu a {
+    color: #111213;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+
 .body-text {
     margin-left: 150px;
     font-size: 18px;
-} */
+}
 
+/* Socialnetwork class */
 .social-networks {
 
     text-align: center;
@@ -50,4 +130,6 @@ body {
 .fa-facebook {
     background: #3B5998;
     color: white;
+    
 }
+
