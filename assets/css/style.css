@@ -1,3 +1,53 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #9A9A9A;
+}
+
+/* .sidebar {
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: lightblue;
+}
+
+.sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+
+.body-text {
+    margin-left: 150px;
+    font-size: 18px;
+} */
+
+.social-networks {
+
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
