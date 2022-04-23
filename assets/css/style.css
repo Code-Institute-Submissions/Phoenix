@@ -46,15 +46,18 @@ body {
 
     .container .cell-main {
         grid-column: 3 / 13;
+        grid-template-rows: 1fr 100px;
         
     }
 
     .container .cell-left_sidebar {
         grid-row:  1 / 4;
         grid-column: 1 / 3;
+        
     }
     .container .cell-images {
         grid-column: 3 / 13;
+        grid-template-rows: 1fr;
         
     }
 
