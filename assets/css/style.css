@@ -39,8 +39,7 @@ body {
 .cell-left_sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 6;
-    background-color: #82c0c7;
-    color: black;
+    background-color: #637118;
     font-family: 'Oswald', sans-serif;
 
 }
@@ -67,7 +66,7 @@ body {
 
 .navlinks li a {
     text-decoration: none;
-    color: white;
+    color: #d2d943;
     padding: 10px 14px;
     display: flex;
     align-items: center;
@@ -93,7 +92,7 @@ body {
 }
 
 .navlinks li:hover a {
-    color: #0f4791;
+    color: #3fd6a0;
     transition: 0.3s;
 }
 
@@ -101,19 +100,30 @@ body {
     bottom: 5px;
     position: absolute;
     display: flex;
-    transform: translateY(-50%);
     list-style-type: none;
+    font-size: 22px;
 
 }
 
 .socialnetwork i {
-    padding: 0 5px;
-    color: #fff;
+    padding: 0;
+    color: #dbdce1;
     cursor: pointer;
     list-style-type: none;
+    transition: all 0.2s linear;
 
 }
 
+.socialnetwork li a i {
+    font-size: 25px;
+    margin-left: 1px;
+}
+
+.socialnetwork i:hover {
+    color: #3fd6a0;
+    opacity: 1;
+    transition: 0.3s
+}
 
 .cell-main {
     grid-column: 2 / 8;
