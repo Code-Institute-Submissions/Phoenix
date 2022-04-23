@@ -9,14 +9,16 @@
     margin-top: 0;
 }
 
-
+body {
+    font-family: 'Oswald', sans-serif;
+}
 
 .container {
     display: grid;
 
     grid-template-columns: repeat(7, 1fr);
     grid-auto-rows: 200px;
-    /* background-color: brown; */
+    background-color: #fff;
     color: #444;
 }
 
@@ -37,8 +39,34 @@
 .cell-left_sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 5;
+    background-color: #82c0c7;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    
 }
 
+.logo {
+    display: block;
+    margin-bottom: 130px;
+}
+.logo-img {
+    width: 100px;
+}
+
+.navlinks {
+    list-style: none;
+    position: relative;
+}
+.navlinks li {
+    padding: 10px 0;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: #2f2019;
+    padding: 10px 14px;
+
+}
 .cell-main {
     grid-column: 2 / 8;
     grid-row: 1 / 5;
