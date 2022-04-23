@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-.cell-left_sidebar {
+/* .cell-left_sidebar {
     grid-area: cell-left_sidebar;
 }
 
@@ -22,12 +22,14 @@
 
 .cell-footer {
     grid-area: cell-footer;
-}
+} */
 
 .container {
     display: grid;
-    grid-template-columns: 700px 300px 700px;
-    grid-template-areas: "....... cell-main cell-main" "cell-left_sidebar ....... ......." "....... cell-images cell-images" "cell-footer cell-footer cell-footer";
+    /* grid-template-columns: 700px 300px 700px;
+    grid-template-areas: "....... cell-main cell-main" "cell-left_sidebar ....... ......." "....... cell-images cell-images" "cell-footer cell-footer cell-footer"; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
     background-color: brown;
     color: #444;
 }
@@ -38,9 +40,31 @@
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
-  }
-  .cell-main, .cell-footer, .cell-images {
-      background-color: #999;
-  }
+}
 
- 
+.cell-main,
+.cell-footer,
+.cell-images {
+    background-color: #999;
+}
+
+.cell-left_sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 9;
+}
+
+.cell-main {
+    grid-column: 2 / 4;
+    grid-row: 1 / 5;
+    background-image: url(/assets/images/deer2.jpg);
+}
+
+.cell-images {
+    grid-column: 2 / 4;
+    grid-row: 4 / 8;
+}
+
+.cell-footer {
+    grid-column: 2 / 6;
+    grid-row: 8 / 9;
+}
