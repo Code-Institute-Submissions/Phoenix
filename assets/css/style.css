@@ -56,7 +56,7 @@ body {
 .navlinks {
     list-style: none;
     position: relative;
-    font-size: small;
+    font-size: large;
 }
 .navlinks li {
     padding: 10px 0;
@@ -69,6 +69,28 @@ body {
     display: flex;
     align-items: center;
 
+}
+
+.navlinks li a i {
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.navactive {
+    background: white;
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.4);
+}
+.navlinks li:hover a {
+    color: #0f4791;
+    transition: 0.3s;
 }
 .cell-main {
     grid-column: 2 / 8;
