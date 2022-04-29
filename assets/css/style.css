@@ -273,7 +273,6 @@ body {
 }
 
 
-
 .footer-bottom {
     height: 10px;
     width: 100%;
@@ -285,9 +284,8 @@ body {
 
 }
 
-
-
-@media (min-width:600px) and (max-width: 1020px) {
-
-
+.mist {
+    position: relative;
+    width: 
 }
+
