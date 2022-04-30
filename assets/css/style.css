@@ -19,8 +19,8 @@ body {
     display: grid;
     max-width: 2000px;
     /* margin: auto; */
-   
-  
+
+
 }
 
 header {
@@ -28,7 +28,7 @@ header {
     margin: 15px 0 5px 0;
     border-radius: 5px;
     padding: 20px;
-    
+
 }
 
 header h2 {
@@ -38,9 +38,10 @@ header h2 {
     font-size: 30px;
 }
 
-.wrapper img{
+.wrapper img {
     width: 100%;
 }
+
 .wrapper {
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(20, 1fr);
@@ -75,8 +76,8 @@ header h2 {
     list-style: none;
     position: relative;
     font-size: large;
-    
-    
+
+
 }
 
 .navlinks li {
@@ -105,7 +106,7 @@ header h2 {
 }
 
 .socialnetwork {
-   
+
     position: absolute;
     display: flex;
     list-style-type: none;
@@ -142,7 +143,7 @@ header h2 {
     background-repeat: no-repeat;
     border-radius: 5px;
     display: block;
-      
+
 
 }
 
@@ -158,8 +159,8 @@ header h2 {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    
-    
+
+
     border-radius: 5px;
     height: 100%;
 
@@ -314,11 +315,36 @@ header h2 {
 
 @media (max-width: 580px) {
 
-    .cell-images {
+    .wrapper img {
+        width: 100%;
         height: 100%;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+
+    .wrapper img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* .cell-images {
+        height: 100%;
+        width: 100%;
 
     }
     .cell-images2 {
+        height: 100%;
+    } */
+
+}
+
+@media (max-width: 780px) {
+
+    .wrapper img {
+        width: 100%;
         height: 100%;
     }
 
