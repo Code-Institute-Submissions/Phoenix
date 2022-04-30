@@ -97,6 +97,7 @@ header h1 {
 .navlinks li a i {
     font-size: 22px;
     margin-right: 20px;
+    
 }
 
 
@@ -307,13 +308,15 @@ header h1 {
 
 .contact {
     margin-left: 10px;
+    color: #ffffff;
 }
 
-.endnote p {
+.endnote li p {
+    text-decoration: none;
     text-align: center;
     font-size: 25px;
+    color: #ffffff;
 }
-
 .footer-bottom {
     height: 10px;
     width: 100%;
@@ -328,11 +331,13 @@ header h1 {
 .fas {
     font-size: 24px;
     margin-left: 10px;
+    color: #ffffff;
 }
 
 .fas span {
     font-size: 15px;
     margin-left: 10px;
+    color: #ffffff;
 }
 
 
