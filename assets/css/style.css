@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 * {
     /* margin: 10px; */
@@ -27,11 +28,14 @@ header {
     margin: 15px 0 5px 0;
     border-radius: 5px;
     padding: 20px;
-    font-family: 'Oswald', sans-serif;
+    
 }
 
 header h2 {
-    color: #d2d943;
+    color: #28a745;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 30px;
 }
 
 .wrapper img{
