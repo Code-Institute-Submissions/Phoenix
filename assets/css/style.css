@@ -138,12 +138,15 @@ header h1 {
 .fb {
     margin-left: 10px;
 }
+
 .ytube {
     margin-left: 10px;
 }
+
 .insta {
     margin-left: 10px;
 }
+
 .cell-main {
     grid-column: 2 / 26;
     grid-row: 1 / 15;
@@ -277,15 +280,19 @@ header h1 {
     display: block;
 }
 
+
 .cell-footer {
-    
+
     background-color: #261e1c;
     color: #ffffff;
     flex-basis: 25%;
     margin-left: auto;
-    height: 300px;
-    border-radius: 5px;
     
+    height: 400px;
+    border-radius: 5px;
+    clear: both;
+
+
 }
 
 .cell-footer p {
@@ -311,7 +318,7 @@ header h1 {
     height: 10px;
     width: 100%;
     right: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
     color: #ffffff;
     position: relative;
     text-align: right;
@@ -326,6 +333,70 @@ header h1 {
 .fas span {
     font-size: 15px;
     margin-left: 10px;
+}
+
+
+.mist {
+    position: relative;
+
+
+}
+
+.mist_image {
+    display: block;
+    width: 100%;
+}
+
+.mist_overlay {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.mist_overlay:hover {
+    opacity: 1;
+}
+
+.mist_overlay>* {
+    transform: translateY(20px);
+    transition: opacity 0.25s;
+}
+
+.mist_overlay:hover>* {
+    transform: translateY(0);
+}
+
+.mist_text {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.image_descabout {
+    font-size: 1.50em;
+    margin-top: 0.25em;
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
 }
 
 
@@ -346,14 +417,11 @@ header h1 {
         height: 100%;
     }
 
-    /* .cell-images {
-        height: 100%;
+    .mist_image {
         width: 100%;
-
-    }
-    .cell-images2 {
         height: 100%;
-    } */
+    }
+
 
 }
 
@@ -363,5 +431,11 @@ header h1 {
         width: 100%;
         height: 100%;
     }
+
+    .mist_image {
+        width: 100%;
+        height: 100%;
+    }
+
 
 }
