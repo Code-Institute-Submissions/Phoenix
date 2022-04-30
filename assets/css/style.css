@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lato:wght@300&family=Oswald:wght@300&family=Shadows+Into+Light&display=swap');
 
 * {
     /* margin: 10px; */
     padding: 0;
     border: none;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     box-sizing: border-box;
     /* margin-top: 0; */
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     margin: 10px;
 }
 
@@ -24,18 +24,18 @@ body {
 }
 
 header {
-    background-color: #637118;
+    background-color: #28a745;
     margin: 15px 0 5px 0;
     border-radius: 5px;
     padding: 20px;
 
 }
 
-header h2 {
-    color: #28a745;
-    font-family: 'Lato', sans-serif;
+header h1 {
+    color: black;
+    font-family: 'Shadows Into Light', cursive;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .wrapper img {
@@ -56,19 +56,20 @@ header h2 {
 .cell-left_sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 26;
-    background-color: #637118;
-    font-family: 'Oswald', sans-serif;
+    background-color: #8fd19e;
+    font-family: 'Shadows Into Light', cursive;
     border-radius: 5px;
 
 }
 
 .logo {
     display: block;
-    margin-bottom: 130px;
+    margin-bottom: 10px;
 }
 
 .logo-img {
-    width: 100px;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -86,7 +87,7 @@ header h2 {
 
 .navlinks li a {
     text-decoration: none;
-    color: #d2d943;
+    color: black;
     padding: 10px 14px;
     display: flex;
     align-items: center;
@@ -101,7 +102,7 @@ header h2 {
 
 
 .navlinks li:hover a {
-    color: #3fd6a0;
+    color: #fff3cd;
     transition: 0.3s;
 }
 
@@ -218,7 +219,7 @@ header h2 {
 }
 
 .imagebackground {
-    background: #286a23;
+    background: #28a745;
 }
 
 .imagetext {
