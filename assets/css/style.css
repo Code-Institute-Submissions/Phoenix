@@ -278,12 +278,11 @@ header h1 {
 }
 
 .cell-footer {
-    /* grid-column: 2 / 8;
-    grid-row: 8 / 10; */
+    
     background-color: #261e1c;
     color: #ffffff;
     flex-basis: 25%;
-    margin-left: 10px;
+    margin-left: auto;
     height: 300px;
     border-radius: 5px;
     
@@ -292,15 +291,20 @@ header h1 {
 .cell-footer p {
     font-weight: lighter;
     font-size: 15px;
+    margin: 0;
 }
 
 .cell-footer .hr {
     border-top: 1px solid #ffffff;
 }
 
-.endnote {
+.contact {
+    margin-left: 10px;
+}
+
+.endnote p {
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .footer-bottom {
