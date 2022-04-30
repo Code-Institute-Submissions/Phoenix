@@ -135,6 +135,15 @@ header h1 {
     transition: 0.3s
 }
 
+.fb {
+    margin-left: 10px;
+}
+.ytube {
+    margin-left: 10px;
+}
+.insta {
+    margin-left: 10px;
+}
 .cell-main {
     grid-column: 2 / 26;
     grid-row: 1 / 15;
@@ -277,6 +286,7 @@ header h1 {
     margin-left: 10px;
     height: 300px;
     border-radius: 5px;
+    
 }
 
 .cell-footer p {
@@ -288,18 +298,10 @@ header h1 {
     border-top: 1px solid #ffffff;
 }
 
-.cell-footer li {
-    color: #ffffff;
-    /* padding: 10px 0; */
-    display: flex;
-    text-decoration: none;
+.endnote {
+    text-align: center;
+    font-size: 15px;
 }
-
-.cell-footer li a i {
-    margin-left: auto;
-
-}
-
 
 .footer-bottom {
     height: 10px;
@@ -312,6 +314,15 @@ header h1 {
 
 }
 
+.fas {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.fas span {
+    font-size: 15px;
+    margin-left: 10px;
+}
 
 
 @media (max-width: 580px) {
