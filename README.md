@@ -79,6 +79,9 @@ This section should describe the process you went through to deploy the project 
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - 
+Gitpod platform was used for coding as it allows to launch the development environment without taking any stress locally. the code was then pushed to Github 
+I used the grid property to design the pages as it offers the flexibility to place photographs based on the column and row values, thereby it offers more control on the elements placed in a particular layout.
+
 
 ## Credits 
 
