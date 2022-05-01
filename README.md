@@ -27,20 +27,6 @@ Phoenix park is a site to help people discover the wonders of this magical urban
 
 ![cell-images](https://user-images.githubusercontent.com/101147217/166142812-a0660520-7047-43b8-93bc-388a272492ae.png)
 
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://user-images.githubusercontent.com/101147217/166142899-0fb8985e-a137-4516-b06c-077121d6b856.png)
-
 - __Attractions__
 
   - The attractions page will provide the user with supporting images to see what the Dublin Zoo look like. 
