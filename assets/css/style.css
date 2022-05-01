@@ -14,7 +14,7 @@ body {
     font-family: 'Shadows Into Light', cursive;
     margin: 10px;
 }
-
+/* main class for grid layout */
 .container {
     display: grid;
     max-width: 2000px;
@@ -51,7 +51,7 @@ header h1 {
     display: grid;
 }
 
-
+/*slide bar left */
 
 .cell-left_sidebar {
     grid-column: 1 / 2;
@@ -78,7 +78,6 @@ header h1 {
     position: relative;
     font-size: large;
 
-
 }
 
 .navlinks li {
@@ -101,12 +100,11 @@ header h1 {
 }
 
 
-
 .navlinks li:hover a {
     color: #fff3cd;
     transition: 0.3s;
 }
-
+/* Social links fb yt insta */
 .socialnetwork {
 
     position: absolute;
@@ -164,6 +162,7 @@ header h1 {
 .cell-main:hover {
     opacity: 0.5;
 }
+/* Main image landing page animation overlay */
 
 .cell-images {
     grid-column: 2 / 5;
@@ -194,6 +193,7 @@ header h1 {
     display: block;
 }
 
+/* animation overlay for the landing page photographs */
 .imgoverlay {
 
     position: absolute;
@@ -252,7 +252,7 @@ header h1 {
     opacity: 1;
 }
 
-
+/* Main image landing page animation overlay image 2 */
 .cell-images2 {
     grid-column: 5 / 8;
     grid-row: 15 / 26;
@@ -281,7 +281,7 @@ header h1 {
     display: block;
 }
 
-
+/* Footer layout */
 .cell-footer {
 
     background-color: #261e1c;
@@ -341,6 +341,7 @@ header h1 {
     color: #ffffff;
 }
 
+/*Overlay animation for about page */
 
 .mist {
     position: relative;
@@ -387,6 +388,7 @@ header h1 {
 .mist_text {
     font-size: 1em;
     font-weight: bolder;
+    height: 50px;
 }
 
 .image_descabout {
@@ -404,6 +406,8 @@ header h1 {
 #photos>img {
     width: 100%;
 }
+
+/* Form section for SignUp*/
 
 .form-section {
     clear: left;
