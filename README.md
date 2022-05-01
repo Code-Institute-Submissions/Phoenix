@@ -79,21 +79,19 @@ This section should describe the process you went through to deploy the project 
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - 
-Gitpod platform was used for coding as it allows to launch the development environment without taking any stress locally. the code was then pushed to Github 
-I used the grid property to design the pages as it offers the flexibility to place photographs based on the column and row values, thereby it offers more control on the elements placed in a particular layout.
+- Gitpod platform was used for coding as it allows to launch the development environment without taking any stress locally,  the code was then pushed to Github 
+- I used the grid property to design the pages as it offers the flexibility to place photographs based on the column and row values, thereby it offers more control on the      elements placed in a particular layout.
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text for the About page was taken from https://phoenixpark.ie/
+- Instructions on how to implement side bar navigation on the Sign Up page was taken from (https://www.youtube.com/watch?v=Fx_NpAPM-iU)
+- The icons used in all pages were taken from [Font Awesome](https://fontawesome.com/)
+- The code for sign up and attractions page were referred from the Love Running project
+- The overlay effects were inspired from https://www.w3schools.com/howto/howto_css_image_overlay_title.asp
 
 ### Media
 
